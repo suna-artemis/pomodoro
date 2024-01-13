@@ -1,10 +1,12 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "POMODORO",
+  "name": "POMODORO",
+  "lang": "zh-CN",
+  "id": "POMODORO4869",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "64x64",
       "type": "image/x-icon"
     },
     {
@@ -19,7 +21,8 @@
     }
   ],
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
+  "display_override": ["fullscreen", "minimal-ui", "window-controls-overlay"],
+  "display": "fullscreen",
+  "theme_color": "#e04b42",
   "background_color": "#ffffff"
 }

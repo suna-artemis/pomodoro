@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+# 番茄工作法助手
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 每日安排
 
-## Available Scripts
+一、上班
 
-In the project directory, you can run:
+二、从待办列表中选择今日承诺（完整的成果、明确的任务目标或产出）（可多选）
 
-### `npm start`
+三、在番茄钟的帮助下完成承诺
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+四、每日回顾
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+五、下班
 
-### `npm test`
+## 承诺（任务）的生存周期
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+一、从承诺清单中选择一个承诺
 
-### `npm run build`
+二、开始一次番茄循环并专注于选中的承诺
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+三、（第二步未被中断）（承诺完成）结束承诺并回到第一步
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+四、（第二步未被中断）（承诺未完成）记录一个番茄循环，间歇
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+五、（第二步被中断）结束当前循环但不记录，处理中断
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+六、（第五步中断处理完成）重新开始一个番茄循环，回到第二步
